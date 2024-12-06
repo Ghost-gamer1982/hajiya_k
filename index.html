@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK Multi-Purpose Collection</title>
+
+    <link rel="icon" href="images/main.jpg" type="image/x-icon">
+
+ 
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Scroll Reveal -->
+    <link rel="stylesheet" href="js/scrollreveal.js">
+                                                
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .social-icon {
+            font-size: 25px; /* Adjust size as needed */
+            color: brown; /* Adjust color as needed */
+            margin-right: 20px; /* Optional: Adjust spacing between icons */
+            
+        }
+    </style>
+    <script>
+        function showFullImage(imageSrc) {
+            // Create overlay container
+            var overlay = document.createElement('div');
+            overlay.className = 'overlay';
+            overlay.onclick = function() {
+                document.body.removeChild(overlay);
+            };
+    
+            // Create image element inside overlay
+            var img = document.createElement('img');
+            img.src = imageSrc;
+            overlay.appendChild(img);
+    
+            // Append overlay to body
+            document.body.appendChild(overlay);
+        }
+        
+    
+</script>
+</head>
+<body>
+<!-- Header -->
+    <header class="header">
+            <nav class="nav container flex">
+                    <a href="#" class="logo-content flex">
+                        
+                        <span class="logo-text">HK Multi-Purpose Collection</span>
+                    </a>
+
+                    <div class="menu-content">
+                            <ul class="menu-list flex">
+                                    <li><a href="#home" class="nav-link active-navlink">home</a></li>
+                                    <li><a href="#about" class="nav-link">about</a></li>
+                                    <li><a href="#menu" class="nav-link">services</a></li>
+                                    <li><a href="#review" class="nav-link">review</a></li>
+                            </ul>
+
+                            <div class="media-icons flex">
+                                 
+                                <a href="https://wa.me/+2348065223331?text=Hi  + HK + MultiPurpose + Collection"><i class='bx bxl-whatsapp social-icon' ></i></a>
+                                <a href="https://www.instagram.com/hk_multipurpose_collection?igsh=eXdoYjJ3NDRzMnNt"><i class='bx bxl-instagram-alt social-icon' ></i></a>   
+                            </div>
+
+                            <i class='bx bx-x navClose-btn'></i>
+                        </div>
+                        <div class="contact-content flex">
+                            <i class='bx bx-phone phone-icon' ></i>
+                            <span class="phone-number">08065223331</span>
+                        </div>
+                        <i class='bx bx-menu navOpen-btn'></i>
+                </nav>
+    </header>
+
+<!-- Home Section -->
+    <main>
+        <section class="home" id="home">
+                <div class="home-content">
+                        <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                                <img src="images/home2.png"  class="home-img">
+
+                                                <div class="home-details">
+                                                        <div class="home-text">
+                                                                
+                                                                <h4 class="homeSubtitle">At HK Multi-Purpose Collection, We Offer:</h4>
+                                                                <h5 class="homeTitle">Snacks & catering. <br> Perfumes & textiles. <br> Travel bags & more...</h5>
+                                                                
+                                                                
+                                                        </div>
+                                                        <a href="#about">
+                                                        <button class="button">Explore</button>
+                                                </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                                <img src="images/HK.png" alt="" class="home-img">
+
+                                                <div class="home-details">
+                                                        <div class="home-text">
+                                                                <h4 class="homeSubtitle">Discover Premium Quality Services.</h4>
+                                                                <h2 class="homeTitle">Experience Our Exceptional <br> Snacks, Textiles, and More</h2>
+                                                                
+                                                        </div>
+                                                        <a href="#about">
+                                                        <button class="button">Explore
+                                                                
+                                                        </button>
+                                                </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                                <img src="images/home3.png" alt="" class="home-img">
+
+                                                <div class="home-details">
+                                                        <div class="home-text">
+                                                                <h4 class="homeSubtitle">Serving All Your Needs.</h4>
+                                                                <h2 class="homeTitle">Exceptional Snacks, Perfumes, <br> Catering, and More</h2>
+                                                                
+                                                        </div>
+                                                        <a href="#about">
+                                                        <button class="button">Explore</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <div class="swiper-button-next swiper-navBtn"></div>
+                                <div class="swiper-button-prev swiper-navBtn"></div>
+                                <div class="swiper-pagination"></div>
+                        </div>
+                </div>
+        </section>
+
+    
+<!-- About Section -->
+<header class="section-header">
+        <h1>About Us</h1>
+    </header>
+<section class="section about" id="about">
+        <div class="about-content container">
+            <div class="about-imageContent">
+                <img src="images/main.jpg" alt="" class="about-img">
+                <div class="aboutImg-textBox">
+                    <i class='bx bx-heart heart-icon flex'></i>
+                    <p class="content-description">Committed to delivering high-quality snacks, perfumes, and more with care and attention.</p>
+
+                </div>
+            </div>
+    
+            <div class="about-details">
+                <div class="about-text">
+                        <h4 class="content-subtitle"><i>Welcome to HK Multi-Purpose Collection</i></h4>
+                        <h2 class="content-title">Where Quality Meets Variety</h2>
+                        <p class="content-description">From delicious snacks to elegant perfumes and event catering, we provide a range of high-quality services designed to meet all your needs.</p>
+                        
+                </div>
+    
+                <div class="about-buttons flex">
+                        <a href="#menu" class="about-link flex">
+                    <button class="button">Learn More</button>
+                    <i class='bx bx-right-arrow-alt about-arrowIcon'></i>
+                  
+                        <!-- <span class="link-text">see more</span>
+                        <i class='bx bx-right-arrow-alt about-arrowIcon'></i> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+      
+</section>
+
+    
+    
+    
+<!-- Menu Section -->
+        <section class="section menu" id="menu">
+            <div class="menu-container container">
+                    <div class="meu-text">
+                            <h4 class="section-subtitle"><i>Our Services</i></h4>
+                            <h2 class="section-title">Below are the services we offer:</h2>
+                            <p class="section-description">
+                                At HK Multi-Purpose Collection, we offer a range of high-quality services, from delicious homemade snacks and perfumes to event catering, textiles, and travel bags. We are dedicated to providing the best for every occasion.
+                            </p>
+                            
+                    </div>
+
+                    <div class="menu-content">
+                            <div class="menu-items">
+                                    <div class="menu-item flex">
+                                            <img src="images/pro22.png" alt="" class="menu-img" onclick="showFullImage('images/pro22.png')">
+
+                                            <div class="menuItem-details">
+                                                <h4 class="menuItem-topic">Homemade Snacks</h4>
+                                                <p class="menuItem-des">Our snacks are made with care and passion. From savory meat pies to sweet cookies and cakes, we offer a variety of delicious treats that will satisfy every craving.</p>
+                                            </div>
+                                            
+
+                                            <div class="menuItem-price flex">
+                                                  
+                                            </div>
+                                    </div>
+                                    <div class="menu-item flex">
+                                            <img src="images/catering.png" alt="" class="menu-img" onclick="showFullImage('images/catering.png')">
+
+                                            <div class="menuItem-details">
+                                                <h4 class="menuItem-topic">Event Catering</h4>
+                                                <p class="menuItem-des">We offer exceptional catering services for any occasion. Whether it's a small gathering or a grand event, our homemade dishes will bring flavor and satisfaction to your guests.</p>
+                                            </div>
+                                            
+
+                                            <div class="menuItem-price flex">
+                                                   
+                                            </div>
+                                    </div>
+                                    <div class="menu-item flex">
+                                            <img src="images/pro13.png" alt="" class="menu-img" onclick="showFullImage('images/pro13.png')">
+
+                                            <div class="menuItem-details">
+                                                <h4 class="menuItem-topic">Perfumes</h4>
+                                                <p class="menuItem-des">We offer a variety of perfumes, including traditional wood-based fragrances A.K.A Turaren Wuta, alongside elegant textiles. Whether for personal use or gifting, our products are crafted with quality in mind.</p>
+                                            </div>
+                                            
+
+                                            <div class="menuItem-price flex">
+                                                    
+                                            </div>
+                                    </div>
+                                    <div class="menu-item flex">
+                                            <img src="images/textile.png" alt="" class="menu-img" onclick="showFullImage('images/textile.png')">
+
+                                            <div class="menuItem-details">
+                                                <h4 class="menuItem-topic">Clothing Materials and Textiles</h4>
+                                                <p class="menuItem-des">Discover our wide range of vibrant fabrics, including atampa, elegant women wrappers, and premium textiles. Perfect for all occasions, our collection offers durable and stylish materials to create traditional outfits or modern designs. Celebrate culture with fabrics that inspire!</p>
+                                            </div>
+                                            
+                                            <div class="menuItem-price flex">
+                                                    
+                                            </div>
+                                    </div>
+                            </div>
+                            
+                                <!-- End Choose Rights -->
+                        </div>
+                            <!-- <div class="time-table">
+                                    <span class="time-topic">Catogries Time</span>
+
+                                    <ul class="time-lists">
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Sunday</span>
+                                                    <span class="open-time">Closed</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Monday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Tuesday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Wednesday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Thursday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Friday</span>
+                                                    <span class="open-time">7.00am - 3.00pm</span>
+                                            </li>
+                                            <li class="time-list flex">
+                                                    <span class="open-day"> Saturday</span>
+                                                    <span class="open-time">9.00am - 2.00pm</span>
+                                            </li>
+                                    </ul>
+                            </div> -->
+                    </div>
+            </div>
+        </section>
+
+    
+<!-- Brand Section -->
+        <section class="section brand">
+            <div class="brand-container container">
+                    <h4 class="section-subtitle"><i>Some of our products...</i></h4>
+                   
+                    <div class="brand-images">
+                            <div class="brand-image">
+                                    <img src="images/pro1.png" alt="" class="brand-img" onclick="showFullImage('images/pro1.png')">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/pro2.png" alt="" class="brand-img" onclick="showFullImage('images/pro1.png')">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/pro3.png" alt="" class="brand-img" onclick="showFullImage('images/pro3.png')">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/pro4.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro4.jpg')">
+                            </div>
+                            <div class="brand-image">
+                                    <img src="images/pro5.png" alt="" class="brand-img" onclick="showFullImage('images/pro5.png')">
+                            </div>
+                            <div class="brand-image">
+                                <img src="images/pro6.png" alt="" class="brand-img" onclick="showFullImage('images/pro6.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro7.png" alt="" class="brand-img" onclick="showFullImage('images/pro7.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro8.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro8.jpg')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro9.png" alt="" class="brand-img" onclick="showFullImage('images/pro9.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro10.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro10.jpg')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro11.png" alt="" class="brand-img" onclick="showFullImage('images/pro11.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro12.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro12.jpg')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro13.png" alt="" class="brand-img" onclick="showFullImage('images/pro13.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro14.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro14.jpg')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro15.png" alt="" class="brand-img" onclick="showFullImage('images/pro15.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro16.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro16.jpg')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro17.png" alt="" class="brand-img" onclick="showFullImage('images/17.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro18.jpg" alt="" class="brand-img" onclick="showFullImage('images/pro18.jpg')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro19.png" alt="" class="brand-img" onclick="showFullImage('images/pro19.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro20.png" alt="" class="brand-img" onclick="showFullImage('images/pro20.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro21.png" alt="" class="brand-img" onclick="showFullImage('images/pro21.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro22.png" alt="" class="brand-img" onclick="showFullImage('images/pro22.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro23.png" alt="" class="brand-img" onclick="showFullImage('images/pro23.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro24.png" alt="" class="brand-img" onclick="showFullImage('images/pro24.png')">
+                        </div>
+                        <div class="brand-image">
+                                <img src="images/pro25.png" alt="" class="brand-img" onclick="showFullImage('images/pro25.png')">
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+    
+<!-- Reviews Section -->
+<section class="section review" id="review">
+        <div class="review-container container">
+            <div class="review-text">
+                <h4 class="section-subtitle"><i>Client Reviews</i></h4>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+    
+            <div class="testimonial swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Review 1 -->
+                    <div class="testi-content swiper-slide flex">
+                        <img src="images/fprofile.png" alt="" class="review-img">
+                        <p class="review-quote">
+                            HK Multi-Purpose Collection catered for my wedding, and I must say it was flawless! The snacks were delicious, the cakes were stunning, and the overall service was incredible. Thank you for making my big day so memorable!
+                        </p>
+                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+    
+                        <div class="testi-personDetails flex">
+                            <span class="name">Amina Abdullahi</span>
+                            <span class="job">Bride</span>
+                        </div>
+                    </div>
+    
+                    <!-- Review 2 -->
+                    <div class="testi-content swiper-slide flex">
+                        <img src="images/mprofile.png" alt="" class="review-img">
+                        <p class="review-quote">
+                            I purchased some perfumes and textiles from HK Multi-Purpose Collection, and I was amazed by the quality! The traditional perfumes(Turaren Wuta) are so unique and long-lasting. Highly recommended for anyone looking for authentic products.
+                        </p>
+                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+    
+                        <div class="testi-personDetails flex">
+                            <span class="name">Musa Garba</span>
+                            <span class="job">Customer</span>
+                        </div>
+                    </div>
+    
+                    <!-- Review 3 -->
+                    <div class="testi-content swiper-slide flex">
+                        <img src="images/fprofile.png" alt="" class="review-img">
+                        <p class="review-quote">
+                            HK Multi-Purpose Collection is a one-stop shop! From their tasty meat pies to high-quality traveling bags, everything they sell is exceptional. Their customer service is also top-notch. Keep up the amazing work!
+                        </p>
+                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+    
+                        <div class="testi-personDetails flex">
+                            <span class="name">Fatima Usman</span>
+                            <span class="job">Entrepreneur</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+<!-- Newsletter Section -->
+        
+                   
+            
+     
+        
+    
+<!-- Footer Section -->
+<footer class="section footer">
+        <div class="footer-container container">
+            <div class="footer-content">
+                <a href="#" class="logo-content flex">
+                    <!-- Add logo here if needed -->
+                </a>
+    
+                <p class="content-description">
+                    HK Multi-Purpose Collection is here to elevate your experience with top-quality products and services. What are you waiting for? Contact us NOW!
+                </p>
+            </div>
+    
+            <div class="footer-linkContent">
+                <ul class="footer-links">
+                    <h4 class="footerLinks-title">Quick Links</h4>
+                    <li><a href="#home" class="footer-link">Home</a></li>
+                    <li><a href="#menu" class="footer-link">Services</a></li>
+                    <li><a href="#about" class="footer-link">About Us</a></li>
+                </ul>
+                <div class="social-media-links">
+                        <a href="https://wa.me/+2348125645000?text=Hi  +HK+Multi-Purpose+Collection"><i class='bx bxl-whatsapp social-icon'></i></a>
+                        <a href="https://www.instagram.com/hk_multipurpose_collection?igsh=eXdoYjJ3NDRzMnNt"><i class='bx bxl-instagram-alt social-icon'></i></a>
+                        <a href="https://www.tiktok.com/@incense.page?_t=8rxTu8BoHHs&_r=1"><i class='bx bxl-tiktok social-icon'></i></a>
+                    </div>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-location flex">
+            <i class='bx bx-map map-icon'></i>
+            <div class="location-text">
+                No. 29, Circular Road, Maiduguri, Borno State.
+            </div>
+        </div>
+    
+        <div class="footer-copyRight">&#169; HK Multi-Purpose Collection. All rights reserved</div>
+    </footer>
+    
+
+<!-- Scroll Up -->
+        <a href="#home" class="scrollUp-btn flex">
+                <i class='bx bx-up-arrow-alt scrollUp-icon'></i>
+        </a>
+
+</main>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- Scroll Reveal -->
+<script src="js/scrollreveal.js"></script>
+
+<!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDdswMUnP7XxU6jY8fpb3VDK0IA6s5QEAk",
+          authDomain: "zay-website-91bba.firebaseapp.com",
+          projectId: "zay-website-91bba",
+          storageBucket: "zay-website-91bba.appspot.com",
+          messagingSenderId: "655464521383",
+          appId: "1:655464521383:web:b0102616690752821bc582",
+          measurementId: "G-XYEDSRRMHP"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
